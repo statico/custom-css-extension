@@ -1,0 +1,10 @@
+#mw-head, #mw-page-base, #mw-head-base, #mw-panel,
+#siteNotice, #toc
+{
+  display: none !important;
+}
+
+#content {
+  margin: 0 !important;
+  padding: 1em !important;
+}

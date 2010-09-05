@@ -1,0 +1,17 @@
+#app {
+  margin: 0 !important;
+  width: auto !important;
+}
+
+#content {
+  margin: 0 !important;
+  padding: 1em !important;
+}
+
+#header-advert, #left-column, #right-column,
+#header, #content .section-links,
+#ref-search-box, #results_ad, #logo, #footer-advert
+{
+  display: none !important;
+}
+

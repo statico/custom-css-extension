@@ -1,0 +1,21 @@
+#leftRail, #macnt, #alM8, iframe,
+#top_search, .spl_unshd, #bnrTop,
+#rightRail, .wrp_rc, #dict_hdr, .Lis
+{
+  display: none !important;
+}
+
+#midRail, #contentResults, #dmain {
+  left: auto;
+  top: auto;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+#contentResults, #dmain {
+  width: 100% !important;
+}
+
+#dmain {
+  top: 20px !important;
+}
