@@ -1,5 +1,5 @@
 #mw-head, #mw-page-base, #mw-head-base, #mw-panel,
-#siteNotice, #toc
+#siteNotice, #toc, #column-one
 {
   display: none !important;
 }

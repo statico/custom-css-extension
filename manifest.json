@@ -2,6 +2,12 @@
   "name": "Ian's Custom CSS",
   "version": "1.0",
 
+  "permissions": [
+    "tabs", "http://www.google.com/", "http://*.langworth.com/"
+  ],
+
+  "background_page": "background.html",
+
   "content_scripts": [
     {
       "matches": ["http://dictionary.reference.com/*"],
@@ -17,11 +23,6 @@
       "all_frames": true,
       "matches": ["http://www.merriam-webster.com/dictionary/*"],
       "css": ["merriam-webster.com.css"]
-    },
-    {
-      "all_frames": true,
-      "matches": ["http://www.google.com/search?q=define:*"],
-      "css": ["google.com.css"]
     }
   ]
 }
