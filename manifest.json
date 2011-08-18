@@ -23,6 +23,11 @@
       "all_frames": true,
       "matches": ["http://www.merriam-webster.com/dictionary/*"],
       "css": ["merriam-webster.com.css"]
+    },
+    {
+      "all_frames": true,
+      "matches": ["http://expressjs.com/*"],
+      "css": ["expressjs.com.css"]
     }
   ]
 }

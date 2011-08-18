@@ -1,0 +1,9 @@
+#WikiaRail {
+  display: none;
+}
+#WikiaMainContent, details {
+  width: 100% !important;
+}
+h1 img {
+  height: 40px;
+}
