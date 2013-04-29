@@ -11,23 +11,23 @@
   "content_scripts": [
     {
       "matches": ["http://dictionary.reference.com/*"],
-      "css": ["dictionary.com.css"],
+      "css": ["css/dictionary.com.css"],
       "all_frames": true
     },
     {
       "all_frames": true,
       "matches": ["http://en.wiktionary.org/wiki/*"],
-      "css": ["en.wiktionary.org.css"]
+      "css": ["css/en.wiktionary.org.css"]
     },
     {
       "all_frames": true,
       "matches": ["http://www.merriam-webster.com/dictionary/*"],
-      "css": ["merriam-webster.com.css"]
+      "css": ["css/merriam-webster.com.css"]
     },
     {
       "all_frames": true,
       "matches": ["http://expressjs.com/*"],
-      "css": ["expressjs.com.css"]
+      "css": ["css/expressjs.com.css"]
     }
   ]
 }
