@@ -1,12 +1,18 @@
 {
   "name": "Ian's Custom CSS",
   "version": "1.0",
+  "manifest_version": 2,
+
+  "description": "Ian's fixes for various sites",
+  "icons": {
+    "128": "icon128.png"
+  },
 
   "permissions": [
-    "tabs", "http://www.google.com/", "http://*.langworth.com/"
+    "tabs",
+    "http://www.google.com/",
+    "http://*.langworth.com/"
   ],
-
-  "background_page": "background.html",
 
   "content_scripts": [
     {
