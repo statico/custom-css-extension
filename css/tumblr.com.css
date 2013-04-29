@@ -1,0 +1,14 @@
+#container {
+  width: 1400px !important;
+}
+#left_column {
+  width: 1125px !important;
+}
+
+#tumblr_radar {
+  display: none !important;
+}
+
+#posts .post {
+  padding: 5px 10px !important;
+}

@@ -16,6 +16,12 @@
 
   "content_scripts": [
     {
+      "matches": ["http://www.tumblr.com/blog/*"],
+      "css": ["css/tumblr.com.css"],
+      "js": ["jquery.min.js", "js/tumblr.com.js"],
+      "all_frames": true
+    },
+    {
       "matches": ["http://dictionary.reference.com/*"],
       "css": ["css/dictionary.com.css"],
       "all_frames": true
